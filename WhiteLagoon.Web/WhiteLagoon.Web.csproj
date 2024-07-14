@@ -25,4 +25,8 @@
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\Villa\Create.cshtml" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\VillaImage\" />
+  </ItemGroup>
 </Project>
