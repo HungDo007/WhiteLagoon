@@ -50,7 +50,7 @@ namespace WhiteLagoon.Infrastructure.Repository
         }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
-        {
+            {
             IQueryable<T> query = dbSet;
             if (filter != null)
             {
